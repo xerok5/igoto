@@ -14,5 +14,9 @@
         <td>User Type</td>
         <td><g:textField name="user_type" value="${userinfo?.user_type}" required=""></g:textField></td>
     </tr>
+    <tr>
+        <td>Email</td>
+        <td><g:textField name="email" value="${userinfo?.email}" required=""></g:textField></td>
+    </tr>
 
 </table>

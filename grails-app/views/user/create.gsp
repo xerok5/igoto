@@ -23,6 +23,12 @@
 
     <g:render template="form"></g:render>
     <fieldset class="buttons">
+
+<g:each in="${test}" var="{testsub}" status="i">
+    <g:if test="info">
+
+    </g:if>
+</g:each>
         <g:submitButton name="create"  class="save" value="Create"></g:submitButton>
     </fieldset>
 </g:form>

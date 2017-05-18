@@ -33,6 +33,7 @@
                     <th>Username</th>
                     <th>Password</th>
                     <th>User Type</th>
+                    <th>email</th>
                 </tr>
             </thead>
             <tbody>
@@ -42,6 +43,7 @@
                         <td>${list.username}</td>
                         <td>${list.password}</td>
                         <td>${list.user_type}</td>
+                        <td>${list.email}</td>
                     </tr>
                 </g:each>
             </tbody>
